@@ -11,7 +11,7 @@ server:
     key-store-type: JKS
     protocol: TLS
     enabled-protocols: TLSv1.2
-    ciphers: "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256"
+    ciphers: "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
     
 
 #TODO: figure out why I need this here and in bootstrap.yml
