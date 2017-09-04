@@ -1,5 +1,6 @@
-# spring-ssl-test
-springboot service ssl test application.
+# What's this image for
+
+To test the SSL/TLS settings of spring-boot application. Refer to application.yml file for the SSL specific settings. Current JKS store has RSA generated key pair, configured to run TLSv1.2.
 
 ## to build the image
 ```sh
